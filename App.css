@@ -1,0 +1,38 @@
+.board {
+  display: flex;
+  justify-content: space-around;
+}
+.column {
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.card {
+  margin-bottom: 5px; /* Add more space between cards */
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  background-color: #f6fffe;
+  width: 90%;
+}
+.column:not(:last-child) {
+  margin-right: 5px; /* Add space between columns */
+}
+.ticket {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  width:65%;
+}
+.priority-icon {
+  margin-right: 5px;
+}
+.dropdown{
+  display:block;
+}
+.statusicon{
+  width:4%;
+}
